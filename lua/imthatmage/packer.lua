@@ -52,4 +52,8 @@ return require('packer').startup(function(use)
         require('orgmode').setup{}
     end
     }
+
+    use {'akinsho/org-bullets.nvim', config = function()
+        require('org-bullets').setup()
+    end}
 end)
