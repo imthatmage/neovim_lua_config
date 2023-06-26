@@ -12,6 +12,9 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
+-- vim.opt.foldlevelstart=99
+vim.opt.foldenable = false
+
 -- vim.opt.swapfile = false
 -- vim.opt.backup = false
 -- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
