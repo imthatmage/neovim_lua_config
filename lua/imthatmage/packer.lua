@@ -20,6 +20,9 @@ return require('packer').startup(function(use)
         end
     })
 
+
+    use 'ofirgall/ofirkai.nvim'
+
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
     -- :TSPlaygroundToggle
